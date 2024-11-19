@@ -1,5 +1,5 @@
 # Neural Networks for Threshold Dynamics Reconstruction
-Code for paper "Neural Networks for Threshold Dynamics Reconstruction" by E. Negrini, A. Gao, A. Bowering, W. Zhu, L. Capogna.
+Code and Data for paper "Neural Networks for Threshold Dynamics Reconstruction" by E. Negrini, A. Gao, A. Bowering, W. Zhu, L. Capogna.
 
 **Abstract:** We introduce two convolutional neural network (CNN) architectures, inspired by the Merriman-Bence-Osher (MBO) algorithm and by  cellular automatons, to model and learn threshold-based dynamics for front evolution from video data. The first model, termed the (single-dynamics) MBO network, learns a specific kernel and threshold for each input video without adapting to new dynamics, while the second, a meta-learning MBO network, generalizes across diverse thresholding dynamics by adapting its parameters per input. Both models are evaluated on synthetic and real-world videos (ice melting and fire propagation), with performance metrics indicating effective reconstruction and extrapolation of evolving boundaries, even under noisy conditions. Empirical results highlight the robustness of both networks across varied synthetic and real-world dynamics.
 
@@ -19,7 +19,10 @@ Code for paper "Neural Networks for Threshold Dynamics Reconstruction" by E. Neg
 "run_meta.sh": script to run training and testing<br />
 <br />
 **Misc**<br />
-"utils.py"
+"utils.py"<br />
+<br />
+**Data**<br />
+The data folder contains preprocessed ice melting and fire front expansion dynamics data.
 
 
 
