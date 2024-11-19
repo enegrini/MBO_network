@@ -1,2 +1,1 @@
-# MBO_network
-MBO networks for threshold dynamics reconstruction
+# Neural Networks for Threshold Dynamics Reconstruction
