@@ -7,6 +7,7 @@ Code and Data for paper "Neural Networks for Threshold Dynamics Reconstruction" 
 "data_generator.py" generates data for MBO network<br />
 "data_gen_metaLearning.py": generates data for metalearning MBO network<br />
 "data_gen.sh": script to run data generators<br />
+"fire_filters.py", "icemelting.py": real-data preprocessing scripts<br />
 <br />
 **MBO network training and testing**<br />
 "Avg_runs.py": training of MBO network<br />
